@@ -15,7 +15,7 @@
             "active" : true
         },
         {
-            "name": "AWS Secret",
+            "name": "AWS Access",
             "isSensitive": false,
             "regexPattern": ".*AWS.*ACCESS.*",
             "onKey": false,
