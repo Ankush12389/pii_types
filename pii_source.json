@@ -12,7 +12,14 @@
             "isSensitive": true,
             "regexPattern": ".*AWS.*SECRET.*",
             "onKey": true,
-            "active" : false
-        }
+            "active" : true
+        },
+        {
+            "name": "AWS Secret",
+            "isSensitive": false,
+            "regexPattern": ".*AWS.*ACCESS.*",
+            "onKey": false,
+            "active" : true
+        }        
     ]
 }
