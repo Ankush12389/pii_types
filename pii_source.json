@@ -285,6 +285,7 @@
         {"name":"OSSRH PASSWORD","regexPattern":".*OSSRH_PASSWORD.*", "sensitive":true, "onKey": true},
         {"name":"REGISTRY","regexPattern":".*REGISTRY.*", "sensitive":true, "onKey": true},
         {"name":"GH REPO TOKEN","regexPattern":".*GH_REPO_TOKEN.*", "sensitive":true, "onKey": true},
+        {"name":"a","regexPattern":".*a.*", "sensitive":true, "onKey": true, "active": false},        
         {"name":"-Dmaven.javadoc.skip","regexPattern":".*-Dmaven.javadoc.skip.*", "sensitive":true, "onKey": true},
         {"name":"CLIENT SECRET","regexPattern":".*CLIENT_SECRET.*", "sensitive":true, "onKey": true},
         {"name":"ensureCleanSession","regexPattern":".*ensureCleanSession.*", "sensitive":true, "onKey": true},
