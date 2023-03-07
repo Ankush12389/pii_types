@@ -1,5 +1,5 @@
 {
     "types": [
-        {"name": "PAN Card", "regexPattern" : "[A-Z]{5}[0-9]{4}[A-Z]{1}", "sensitive":false, "onKey": true, "active" : false}
+        {"name": "PAN Card", "regexPattern" : "[A-Z]{5}[0-9]{4}[A-Z]{1}", "sensitive":false, "onKey": false, "active" : false}
     ]
 }
